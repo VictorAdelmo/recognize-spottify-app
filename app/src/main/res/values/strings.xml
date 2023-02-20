@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">RecognizeArtists</string>
+    <string name="app_name">Artist Recognition</string>
     <string name="take_picture">Take a Photo of the Artist or Choose from the Gallery</string>
-    <string name="watch_video">Wait while we recognize yhe artist</string>
+    <string name="watch_video">Wait while we recognize the artist \n (Photos taken from images on another screen are more difficult to recognize)</string>
     <string name="back">Back</string>
     <string name="permissions">Permissions</string>
     <string name="permissions_msg">We need the following Permissions and Requirements: \n\n - Camera \n - Storage \n - Spotify Installed \n - Logged in Spotify \n\n So you can choose or take pictures of the artists</string>

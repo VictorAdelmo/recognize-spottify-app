@@ -9,7 +9,7 @@ public enum ServerError {
     public static String convertServerErrorToMsg(ServerError serverError) {
         switch (serverError){
             case Base64Error:
-                return "Error while send image to server, Try Again";
+                return "Error while send image to server, check your internet connection and try again";
             case ServerMaintance:
                 return "Server is in maintance, Try Again";
             case ArtistNotRecognized:

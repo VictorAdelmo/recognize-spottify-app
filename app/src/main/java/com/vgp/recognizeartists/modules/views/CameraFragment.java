@@ -185,7 +185,7 @@ public class CameraFragment extends Fragment implements AppInterface.cameraView 
                     @Override
                     public void onError(@NonNull ImageCaptureException exception) {
                         Log.e("Erro", exception.getMessage());
-                        Toast.makeText(getContext(), "Ocorreu um Erro", Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(getContext(), "Ocorreu um Erro", Toast.LENGTH_SHORT).show();
                     }
                 });
     }
@@ -215,8 +215,6 @@ public class CameraFragment extends Fragment implements AppInterface.cameraView 
                 } else {
                     Toast.makeText(getContext(), "Ocorreu um Erro ao Selecionar A Imagem", Toast.LENGTH_SHORT).show();
                 }
-            } else {
-                Toast.makeText(getContext(), "Ocorreu um Erro ao Selecionar A Imagem", Toast.LENGTH_SHORT).show();
             }
         }
     }

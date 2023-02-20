@@ -48,7 +48,7 @@
         android:gravity="center"
         android:fontFamily="serif"
         android:textColor="@color/white"
-        android:textSize="18sp"
+        android:textSize="16sp"
         android:text="@string/watch_video"
         app:layout_constraintEnd_toEndOf="@+id/progressBar"
         app:layout_constraintStart_toStartOf="@+id/progressBar"
